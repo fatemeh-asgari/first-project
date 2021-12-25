@@ -10,7 +10,7 @@ const DUMMY_PRODUCTS = [
 
 const Products = () => {
   return (
-    <ul class='products-list'>
+    <ul className='products-list'>
       {DUMMY_PRODUCTS.map((product) => (
         <ProductItem key={product.id} id={product.id} title={product.title} />
       ))}
