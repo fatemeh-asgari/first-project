@@ -1,10 +1,14 @@
-import Header from './Header';
+import Header from "./Header";
 
-import './App.css';
+import "./App.css";
+import Products from "./Products";
 
 function App() {
   return (
-    <Header />
+    <>
+      <Header />
+      <Products />
+    </>
   );
 }
 
