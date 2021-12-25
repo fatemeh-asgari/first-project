@@ -5,6 +5,7 @@
   padding: 1rem;
   width: 90%;
   max-width: 40rem;
+  cursor: pointer;
 }
 
 .item__title{
