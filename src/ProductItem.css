@@ -1,0 +1,13 @@
+.item{
+  margin:1rem auto;
+  border-radius: 6px;
+  background-color: white;
+  padding: 1rem;
+  width: 90%;
+  max-width: 40rem;
+}
+
+.item__title{
+  margin: 0.5rem 0;
+  font-size: 1.25rem;
+}
