@@ -1,9 +1,8 @@
+import {Link} from 'react-router-dom';
+
 import "./Header.css"
 
 const Header = () => {
-  const showCartHandler = () => {
-
-  }
 
   return(
     <header className="header">
@@ -11,7 +10,7 @@ const Header = () => {
       <nav>
         <ul>
           <li>
-            <button onClick={showCartHandler}>My Cart</button>
+            <Link className='nav-item' to='/cart'>My Cart</Link>
           </li>
         </ul>
       </nav>
