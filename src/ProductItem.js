@@ -1,5 +1,4 @@
 import { useDispatch } from "react-redux";
-
 import "./ProductItem.css";
 
 const ProductItem = ({ title, id }) => {
@@ -15,7 +14,7 @@ const ProductItem = ({ title, id }) => {
   return (
     <li>
       <section className="product-item" onClick={addItemToCartHandler}>
-        <h3 className="item__title">{title}</h3>
+        <h3 className="product-item__title">{title}</h3>
       </section>
     </li>
   );

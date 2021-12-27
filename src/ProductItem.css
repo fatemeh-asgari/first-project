@@ -8,7 +8,7 @@
   cursor: pointer;
 }
 
-.item__title{
+.product-item__title{
   margin: 0.5rem 0;
   font-size: 1.25rem;
 }

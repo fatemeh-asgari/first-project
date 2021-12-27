@@ -1,5 +1,4 @@
 import ProductItem from "./ProductItem";
-
 import "./Products.css";
 
 const DUMMY_PRODUCTS = [

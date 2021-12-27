@@ -1,6 +1,6 @@
 import { createStore } from "redux";
 
-const cartReducer = (state ={ cartItems: [] }, action) => {
+const cartReducer = (state = { cartItems: [] }, action) => {
   if (action.type === "addItem") {
     const existingItem = state.cartItems.find(
       (item) => item.id === action.cartInfo.id
@@ -20,8 +20,7 @@ const cartReducer = (state ={ cartItems: [] }, action) => {
         }
       }
       state = { cartItems: [...newCartArray] };
-    }
-    if (!existingItem) {
+    } else {
       const newCartArray = [...state.cartItems];
       newCartArray.push({
         id: action.cartInfo.id,
